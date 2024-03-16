@@ -49,12 +49,15 @@ class VulcanIndustryControl {
                     // don't increase in first 3 years after construction
                     if ((GSDate.GetCurrentDate() - GSIndustry.GetConstructionDate(industry)) < (3 * 365)) {
                         is_valid_candidate = false;
+                        Log.Info(GSIndustry.GetName(industry) + " cannot increase production in first 3 years after construction");
+                        Log.Info("Construction date: " + GSIndustry.GetConstructionDate(industry) + ", current date: " + GSDate.GetCurrentDate());
                         // continue / break here for speed?
                     }
                     // cap max production to 32, - this is 2x original base production of 16
                     // more than double isn't actually fun in FIRS (this might need tuned further by industry type)
                     if (GSIndustry.GetProductionLevel(industry) >= 32) {
                         is_valid_candidate = false;
+                        Log.Info(GSIndustry.GetName(industry) + " is already at max production");
                         // continue / break here for speed?
                     }
                     if (industry in ::persistent_storage.industry_production_increase_timeseries) {
@@ -62,6 +65,7 @@ class VulcanIndustryControl {
                         // don't increase more than once every 10 years per industry - let's not worry about leap years here eh
                         if (GSDate.GetCurrentDate() - last_increase_date < (10 * 365)) {
                             is_valid_candidate = false;
+                            Log.Info(GSIndustry.GetName(industry) + " increased within last 10 years");
                             // continue / break here for speed?
                         }
                     }
@@ -93,7 +97,7 @@ class VulcanIndustryControl {
                 ::persistent_storage.town_primary_industry_production_increase_timeseries[vulcan_town.town].insert(0, GSDate.GetCurrentDate());
             }
             else {
-                Log.Info("...result: no candidate industries found for production increase", Log.CLASS_VULCAN_INDUSTRY_CONTROL);
+                Log.Info("...result: no candidate industries found for production increase at " + GSTown.GetName(vulcan_town.town), Log.CLASS_VULCAN_INDUSTRY_CONTROL);
             }
         }
     }

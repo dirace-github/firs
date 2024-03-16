@@ -39,6 +39,7 @@ class MainClass extends GSController {
 	_loaded_data = null;
 	_loaded_from_version = null;
 	_init_done = null;
+	_timemode = null;
 
 	/*
 	 * This method is called when your GS is constructed.
@@ -52,6 +53,8 @@ class MainClass extends GSController {
 		this._init_done = false;
 		this._loaded_data = null;
 		this._loaded_from_version = null;
+		// broadly we want to run in calendar mode for date comparisons etc (not economy mode), so set that globally
+        this._timemode = GSTimeMode(true);
 	}
 }
 
