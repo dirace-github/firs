@@ -18,125 +18,243 @@ STR_PARAM_NAME_PRIMARY_LEVEL1_BONUS                                             
 STR_PARAM_NAME_PRIMARY_LEVEL2_BONUS                                             :在“工合”生产水平产率(%)。
 STR_PARAM_DESC_PRIMARY_LEVEL_BONUS                                              :当需求满足，在农场、矿场以及相似工业产出(作为百分比{SILVER}正常 {BLACK}产率).
 
+STR_PARAM_NAME_EXPERIMENTAL_FEATURES                                            :启用实验功能
+STR_PARAM_DESC_EXPERIMENTAL_FEATURES                                            :打开或关闭实验性功能.
+
 STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE                                       :基础级-温带经济模式
 STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC                                          :基础级-寒带经济模式
 STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC                                          :基础级-热带经济模式
-STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY                                          :进阶级
+STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY                                          :炎热国度
 STR_PARAM_VALUE_ECONOMIES_STEELTOWN                                             :钢铁城
+
+STR_PARAM_NAME_OBJECTS                                                          :FIRS 景观物体 
+STR_PARAM_DESC_OBJECTS                                                          :FIRS 包括一组景观物体，玩家可以放置这些物体，使某些行业看起来更大。风景物体没有游戏效果。景观对象可以打开或关闭。.
+
+STR_CARGO_SUBTYPE_DISPLAY_CARGO_SUPPLIED_FLAG                             : {BLACK}(已供应)
+STR_EXTRA_TEXT_SECONDARY_NON_COMBINATORY                                        :如果{WHITE}任意 {BLACK}所需的货物得到供应，则{BLACK}产率达到最大
+STR_EXTRA_TEXT_SECONDARY_COMBINATORY                                            :{BLACK}为达到最大产率, 需至少三个月内供应一次 {WHITE}所有 {BLACK}所需货物。
+STR_EXTRA_TEXT_TOWN_PRODUCER                                                    :{BLACK}产量与城镇人口成正比。每月至少生产{WHITE}{SIGNED_WORD}单位{BLACK}，不超过{WHITE}{SIGNED_WORD}单位{BLACK}的货物.
+STR_PRIMARY_PRODUCTION_1X                                                       :{BLACK}当前产率: {YELLOW}标准{}{}{BLACK}为达到{WHITE}增强{BLACK}需三个月内交付 {SIGNED_WORD}箱物资。{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 箱
+STR_PRIMARY_PRODUCTION_2X                                                       :{BLACK}当前产率: {YELLOW}增强{}{}{BLACK}为保持此水准，需三个月内交付 {SIGNED_WORD}{}为保持{WHITE}工合 {BLACK}需交付 {SIGNED_WORD}箱
+STR_PRIMARY_PRODUCTION_4X                                                       :{BLACK}当前产率: {YELLOW}工合{}{} {BLACK}为保持此产率, 需三个月内交付 {SKIP}{SIGNED_WORD} 箱物资
+STR_PORT_PRODUCTION_1X                                                          :{BLACK}当前产率: {YELLOW}标准{}{}{BLACK}为达到{WHITE}增强{BLACK}需三个月内交付 {SIGNED_WORD} 单位货物{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 单位
+STR_PORT_PRODUCTION_2X                                                          :{BLACK}当前产率: {YELLOW}增强{}{}{BLACK}为保持次水准，需三个月内交付{SIGNED_WORD} 单位货物。{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 单位
+STR_PORT_PRODUCTION_4X                                                          :{BLACK}当前产率: {YELLOW}工合{}{}{BLACK}为保持此产率，需三个月内交付{SKIP}{SIGNED_WORD} 单位货物
+
+STR_INFORMATIVE_EXTRA_TEXT_PLAZA                                                :{SKIP}{SKIP}人口情绪:{} {STRING}{STRING}{}{}{BLACK}乐观主义分数: {STRING}{SIGNED_WORD} 点{P 2 "" s}{}{BLACK} 满足需求和奢侈品: {YELLOW}{SIGNED_WORD} 点{P 3 "" s} {}{BLACK} 污染和肮脏: {YELLOW}{SIGNED_WORD} 点{P 4 "" s} {}{}{BLACK}污染和肮脏随着人口和某些行业类型而增加.{}{}通过向某些行业类型交付来满足需求和奢侈品.{}{}如果乐观得分大于 10，则人口情绪将为 {WHITE}乐观{BLACK}. 如果乐观得分小于 -10，则人口情绪将为 {WHITE}悲观{BLACK}.
+STR_INFORMATIVE_EXTRA_TEXT_PLAZA_MOOD_OPTIMISTIC                                :乐观
+STR_INFORMATIVE_EXTRA_TEXT_PLAZA_MOOD_GLOOMY                                    :悲观
+STR_INFORMATIVE_EXTRA_TEXT_PLAZA_MOOD_NEUTRAL                                   :中立
 
 STR_CARGO_NAME_ACID                                                             :酸
 STR_CARGO_NAME_ALCOHOL                                                          :酒
+STR_CARGO_NAME_ALLOY_STEEL                                                      :合金钢
+STR_CARGO_NAME_ALUMINIUM                                                        :铝
+STR_CARGO_NAME_ALUMINIA                                                         :氧化铝
+STR_CARGO_NAME_AMMONIA                                                          :氨
+STR_CARGO_NAME_AMMONIUM_NITRATE                                                 :硝酸铵
 STR_CARGO_NAME_BAUXITE                                                          :铝土
 STR_CARGO_NAME_BEANS                                                            :大豆
 STR_CARGO_NAME_BUILDING_MATERIALS                                               :建筑材料
+STR_CARGO_NAME_CARBON_BLACK                                                     :炭黑
+STR_CARGO_NAME_CARBON_STEEL                                                     :碳钢
 STR_CARGO_NAME_CASSAVA                                                          :木薯
+STR_CARGO_NAME_CAST_IRON                                                        :铸铁
 STR_CARGO_NAME_CEMENT                                                           :水泥
 STR_CARGO_NAME_CHEMICALS                                                        :化工品
 STR_CARGO_NAME_CHLORINE                                                         :氯气
+STR_CARGO_NAME_CHROMITE_ORE                                                     :铬铁矿
 STR_CARGO_NAME_CLAY                                                             :粘土
+STR_CARGO_NAME_CLEANING_AGENTS                                                  :清洁剂
 STR_CARGO_NAME_COFFEE                                                           :咖啡
+STR_CARGO_NAME_COAL_TAR                                                         :煤焦油
 STR_CARGO_NAME_COKE                                                             :焦炭
 STR_CARGO_NAME_COPPER                                                           :铜
+STR_CARGO_NAME_COPPER_CONCENTRATE                                               :铜精矿
 STR_CARGO_NAME_EDIBLE_OIL                                                       :食用油
+STR_CARGO_NAME_ELECTRICAL_PARTS                                                 :电气零件
 STR_CARGO_NAME_ENGINEERING_SUPPLIES                                             :工程物资
+STR_CARGO_NAME_ETHYLENE                                                         :乙烯
 STR_CARGO_NAME_EXPLOSIVES                                                       :炸药
+STR_CARGO_NAME_FERROCHROME                                                      :铬铁
 STR_CARGO_NAME_FIBRES                                                           :植物纤维
 STR_CARGO_NAME_FISH                                                             :鱼
 STR_CARGO_NAME_FARM_SUPPLIES                                                    :农用物资
 STR_CARGO_NAME_FERTILISER                                                       :化肥
+STR_CARGO_NAME_FOOD_ADDITIVES                                                   :食品添加剂
+STR_CARGO_NAME_FORMIC_ACID                                                      :甲酸
 STR_CARGO_NAME_FRUITS                                                           :水果
+STR_CARGO_NAME_FURNITURE                                                        :家具
+STR_CARGO_NAME_GLASS                                                            :玻璃
+STR_CARGO_NAME_HYDROCHLORIC_ACID                                                :盐酸
 STR_CARGO_NAME_KAOLIN                                                           :高岭土
 STR_CARGO_NAME_LIMESTONE                                                        :石灰岩
+STR_CARGO_NAME_LOGS                                                             :原木
 STR_CARGO_NAME_TIMBER                                                           :木料
+# cargo uses Sodium Hydroxide as string as it's interchangeable with Lye, but lye is convenient for filename / cargo label
+STR_CARGO_NAME_LYE                                                              :碱液
 STR_CARGO_NAME_METAL                                                            :金属
+STR_CARGO_NAME_METHANE                                                          :甲烷
+STR_CARGO_NAME_METHANOL                                                         :甲醇
 STR_CARGO_NAME_MILK                                                             :牛奶
 STR_CARGO_NAME_MANGANESE                                                        :锰矿
+STR_CARGO_NAME_NAPHTHA                                                          :石脑油
+STR_CARGO_NAME_NICKEL                                                           :镍
 STR_CARGO_NAME_NITRATES                                                         :硝酸盐
 STR_CARGO_NAME_NUTS                                                             :坚果
+STR_CARGO_NAME_OXYGEN                                                           :氧
 STR_CARGO_NAME_PACKAGING                                                        :包材
+STR_CARGO_NAME_PAINTS_AND_COATINGS                                              :油漆和涂料
 STR_CARGO_NAME_PEAT                                                             :泥煤
 STR_CARGO_NAME_PETROL                                                           :石油燃料
 STR_CARGO_NAME_PHOSPHATE                                                        :磷酸矿
+STR_CARGO_NAME_PHOSPHORIC_ACID                                                  :磷酸
 STR_CARGO_NAME_PIG_IRON                                                         :生铁
 STR_CARGO_NAME_PIPE                                                             :钢管
+STR_CARGO_NAME_PLASTICS                                                         :塑料
 STR_CARGO_NAME_POTASH                                                           :钾碱
+STR_CARGO_NAME_PROPYLENE                                                        :丙烯
 STR_CARGO_NAME_PYRITE_ORE                                                       :黄铁矿
 STR_CARGO_NAME_QUICKLIME                                                        :生石灰
+STR_CARGO_NAME_RAW_LATEX                                                        :生乳胶
+STR_CARGO_NAME_REBAR                                                            :钢筋
 STR_CARGO_NAME_RECYCLABLES                                                      :回收物资
 STR_CARGO_NAME_SALT                                                             :盐
 STR_CARGO_NAME_SAND                                                             :沙子
 STR_CARGO_NAME_SCRAP_METAL                                                      :废金属
 STR_CARGO_NAME_SLAG                                                             :矿渣
 STR_CARGO_NAME_SODA_ASH                                                         :碱粉
+STR_CARGO_NAME_STAINLESS_STEEL                                                  :不锈钢
 STR_CARGO_NAME_STEEL                                                            :钢材
+STR_CARGO_NAME_STEEL_SECTIONS                                                   :钢型材
+STR_CARGO_NAME_STEEL_SHEET                                                      :钢板
+STR_CARGO_NAME_STEEL_WIRE_ROD                                                   :钢线材
 STR_CARGO_NAME_STONE                                                            :石料
 STR_CARGO_NAME_SUGAR_BEET                                                       :甜菜
 STR_CARGO_NAME_SULPHUR                                                          :硫磺
+STR_CARGO_NAME_SULPHURIC_ACID                                                   :硫酸
+STR_CARGO_NAME_TEXTILES                                                         :纺织品
+STR_CARGO_NAME_TIN                                                              :锡
+STR_CARGO_NAME_TINPLATE                                                         :马口铁
+STR_CARGO_NAME_TYRES                                                            :轮胎
+STR_CARGO_NAME_UREA                                                             :尿素
 STR_CARGO_NAME_VEHICLE_BODIES                                                   :车身
+STR_CARGO_NAME_VEHICLE_ENGINES                                                  :汽车发动机
 STR_CARGO_NAME_VEHICLE_PARTS                                                    :车辆零件
 STR_CARGO_NAME_VEHICLES                                                         :车辆
 STR_CARGO_NAME_WOOL                                                             :羊毛
+STR_CARGO_NAME_YARN                                                             :纱
 STR_CARGO_NAME_ZINC                                                             :锌
 
-STR_CARGO_UNIT_ACID                                                             :{VOLUME} 升酸
+STR_CARGO_UNIT_ACID                                                             :{VOLUME} 酸
 STR_CARGO_UNIT_ALCOHOL                                                          :{VOLUME} 酒
+STR_CARGO_UNIT_ALLOY_STEEL                                                      :{WEIGHT} 合金钢
+STR_CARGO_UNIT_ALUMINIA                                                         :{WEIGHT}  氧化铝
+STR_CARGO_UNIT_ALUMINIUM                                                        :{WEIGHT}  铝
+STR_CARGO_UNIT_AMMONIA                                                          :{VOLUME}  氨
+STR_CARGO_UNIT_AMMONIUM_NITRATE                                                 :{VOLUME}  硝酸铵
 STR_CARGO_UNIT_BAUXITE                                                          :{WEIGHT} 铝土
-STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} 吨大豆
+STR_CARGO_UNIT_BEANS                                                            :{WEIGHT} 大豆
 STR_CARGO_UNIT_BUILDING_MATERIALS                                               :{WEIGHT} 建筑材料
-STR_CARGO_UNIT_CASSAVA                                                          :{WEIGHT} 吨木薯
-STR_CARGO_UNIT_CEMENT                                                           :{WEIGHT} 吨水泥
+STR_CARGO_UNIT_CARBON_BLACK                                                     :{WEIGHT} 炭黑
+STR_CARGO_UNIT_CARBON_STEEL                                                     :{WEIGHT} 碳钢
+STR_CARGO_UNIT_CASSAVA                                                          :{WEIGHT} 木薯
+STR_CARGO_UNIT_CAST_IRON                                                        :{WEIGHT} 铸铁
+STR_CARGO_UNIT_CEMENT                                                           :{WEIGHT} 水泥
 STR_CARGO_UNIT_CHEMICALS                                                        :{VOLUME} 化工品
 STR_CARGO_UNIT_CHLORINE                                                         :{VOLUME} 升氯气
+STR_CARGO_UNIT_CHROMITE_ORE                                                     :{WEIGHT} 铬铁矿
 STR_CARGO_UNIT_CLAY                                                             :{WEIGHT} 粘土
+STR_CARGO_UNIT_CLEANING_AGENTS                                                  :{WEIGHT} 清洁剂
+STR_CARGO_UNIT_COAL_TAR                                                         :{VOLUME} 煤焦油
 STR_CARGO_UNIT_COFFEE                                                           :{SIGNED_WORD} 袋咖啡
-STR_CARGO_UNIT_COKE                                                             :{WEIGHT} 吨 焦炭
-STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} 吨铜
-STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} 升食用油
+STR_CARGO_UNIT_COKE                                                             :{WEIGHT} 焦炭
+STR_CARGO_UNIT_COPPER                                                           :{WEIGHT} 铜
+STR_CARGO_UNIT_COPPER_CONCENTRATE                                               :{WEIGHT} 铜精矿
+STR_CARGO_UNIT_EDIBLE_OIL                                                       :{VOLUME} 食用油
+STR_CARGO_UNIT_ELECTRICAL_PARTS                                                 :{WEIGHT} 电气部件
 STR_CARGO_UNIT_ENGINEERING_SUPPLIES                                             :{SIGNED_WORD} 箱 工程物资
+STR_CARGO_UNIT_ETHYLENE                                                         :{VOLUME} 乙烯
 STR_CARGO_UNIT_EXPLOSIVES                                                       :{SIGNED_WORD} 箱 炸药
+STR_CARGO_UNIT_FERROCHROME                                                      :{WEIGHT} 铬铁
 STR_CARGO_UNIT_FERTILISER                                                       :{WEIGHT} 袋 化肥
+STR_CARGO_UNIT_FOOD_ADDITIVES                                                   :{WEIGHT} 食品添加剂
+STR_CARGO_UNIT_FORMIC_ACID                                                      :{VOLUME} 甲酸
 STR_CARGO_UNIT_FIBRES                                                           :{SIGNED_WORD} 包 植物纤维
 STR_CARGO_UNIT_FISH                                                             :{WEIGHT} 鱼
 STR_CARGO_UNIT_FMSP                                                             :{SIGNED_WORD} 箱 农用物资
 STR_CARGO_UNIT_FRUITS                                                           :{WEIGHT} 水果
+STR_CARGO_UNIT_FURNITURE                                                        :{WEIGHT} 家具
+STR_CARGO_UNIT_GLASS                                                            :{WEIGHT} 玻璃
+STR_CARGO_UNIT_HYDROCHLORIC_ACID                                                :{VOLUME} 盐酸
 STR_CARGO_UNIT_KAOLIN                                                           :{WEIGHT} 吨高岭土
 STR_CARGO_UNIT_LIMESTONE                                                        :{WEIGHT} 吨石灰岩
+STR_CARGO_UNIT_LOGS                                                             :{WEIGHT} 原木
 STR_CARGO_UNIT_TIMBER                                                           :{WEIGHT} 木料
+# cargo uses Sodium Hydroxide as string as it's interchangeable with Lye, but lye is convenient for filename / cargo label
 STR_CARGO_UNIT_LYE                                                              :{VOLUME} 升碱液
 STR_CARGO_UNIT_MANGANESE                                                        :{WEIGHT} 吨锰矿
 STR_CARGO_UNIT_METAL                                                            :{WEIGHT} 金属
+STR_CARGO_UNIT_METHANE                                                          :{VOLUME} 甲烷
+STR_CARGO_UNIT_METHANOL                                                         :{VOLUME} 甲醇
 STR_CARGO_UNIT_MILK                                                             :{VOLUME} 牛奶
-STR_CARGO_UNIT_NICKEL                                                           :{WEIGHT} 吨镍
-STR_CARGO_UNIT_NITRATES                                                         :{WEIGHT} 吨硝酸盐
+STR_CARGO_UNIT_NAPHTHA                                                          :{VOLUME} 石脑油
+STR_CARGO_UNIT_NICKEL                                                           :{WEIGHT} 镍
+STR_CARGO_UNIT_NITRATES                                                         :{WEIGHT} 硝酸盐
 STR_CARGO_UNIT_NUTS                                                             :{SIGNED_WORD} 麻袋坚果
+STR_CARGO_UNIT_OXYGEN                                                           :{VOLUME} 氧气
 STR_CARGO_UNIT_PACKAGING                                                        :{WEIGHT} 吨包材
+STR_CARGO_UNIT_PAINTS_AND_COATINGS                                              :{VOLUME} 油漆和涂料
 STR_CARGO_UNIT_PEAT                                                             :{WEIGHT} 吨泥煤
 STR_CARGO_UNIT_PETROL                                                           :{VOLUME} 升石油燃料
 STR_CARGO_UNIT_PHOSPHATE                                                        :{WEIGHT} 吨磷酸盐
-STR_CARGO_UNIT_PIG_IRON                                                         :{WEIGHT} 吨 生铁
-STR_CARGO_UNIT_PIPE                                                             :{WEIGHT} 根 钢管
-STR_CARGO_UNIT_POTASH                                                           :{WEIGHT} 吨 钾碱
-STR_CARGO_UNIT_PYRITE_ORE                                                       :{WEIGHT} 吨黄铁矿
-STR_CARGO_UNIT_QUICKLIME                                                        :{WEIGHT} 吨生石灰
+STR_CARGO_UNIT_PHOSPHORIC_ACID                                                  :{VOLUME} 磷酸
+STR_CARGO_UNIT_PIG_IRON                                                         :{WEIGHT} 生铁
+STR_CARGO_UNIT_PIPE                                                             :{WEIGHT} 钢管
+STR_CARGO_UNIT_PLASTICS                                                         :{WEIGHT} 塑料
+STR_CARGO_UNIT_POTASH                                                           :{WEIGHT} 钾碱
+STR_CARGO_UNIT_PROPYLENE                                                        :{VOLUME} 丙烯
+STR_CARGO_UNIT_PYRITE_ORE                                                       :{WEIGHT} 黄铁矿
+STR_CARGO_UNIT_QUICKLIME                                                        :{WEIGHT} 生石灰
+STR_CARGO_UNIT_RAW_LATEX                                                        :{VOLUME} 生乳胶
+STR_CARGO_UNIT_REBAR                                                            :{WEIGHT} 钢筋
 STR_CARGO_UNIT_RECYCLABLES                                                      :{WEIGHT} 回收物资
-STR_CARGO_UNIT_SALT                                                             :{WEIGHT} 吨盐
+STR_CARGO_UNIT_SALT                                                             :{WEIGHT} 盐
 STR_CARGO_UNIT_SAND                                                             :{WEIGHT} 沙子
 STR_CARGO_UNIT_SCRAP_METAL                                                      :{WEIGHT} 废金属
 STR_CARGO_UNIT_SLAG                                                             :{WEIGHT} 吨 矿渣
-STR_CARGO_UNIT_SODA_ASH                                                         :{WEIGHT} 吨碱粉
+STR_CARGO_UNIT_SODA_ASH                                                         :{WEIGHT} 碱粉
+STR_CARGO_UNIT_STAINLESS_STEEL                                                  :{WEIGHT} 不锈钢
 STR_CARGO_UNIT_STEEL                                                            :{WEIGHT} 吨 钢材
+STR_CARGO_UNIT_STEEL_SECTIONS                                                   :{WEIGHT} 钢型材
+STR_CARGO_UNIT_STEEL_SHEET                                                      :{WEIGHT} 钢板
+STR_CARGO_UNIT_STEEL_WIRE_ROD                                                   :{WEIGHT} 钢线材
 STR_CARGO_UNIT_STONE                                                            :{WEIGHT} 石料
 STR_CARGO_UNIT_SUGAR_BEET                                                       :{WEIGHT} 甜菜
 STR_CARGO_UNIT_SULPHUR                                                          :{WEIGHT} 吨硫磺
+STR_CARGO_UNIT_SULPHURIC_ACID                                                   :{VOLUME} 硫酸
+STR_CARGO_UNIT_TEXTILES                                                         :{WEIGHT} 纺织品
+STR_CARGO_UNIT_TIN                                                              :{WEIGHT} 锡
+STR_CARGO_UNIT_TINPLATE                                                         :{WEIGHT} 马口铁
+STR_CARGO_UNIT_TYRES                                                            :{WEIGHT} 轮胎
+STR_CARGO_UNIT_UREA                                                             :{WEIGHT} 尿素
 STR_CARGO_UNIT_VEHICLE_BODIES                                                   :{WEIGHT} 辆车身
+STR_CARGO_UNIT_VEHICLE_ENGINES                                                  :{WEIGHT} 车辆发动机
 STR_CARGO_UNIT_VEHICLE_PARTS                                                    :{WEIGHT} 箱车辆零件
 STR_CARGO_UNIT_VEHICLES                                                         :{WEIGHT} 辆车
 STR_CARGO_UNIT_WOOL                                                             :{SIGNED_WORD} 包 羊毛
-STR_CARGO_UNIT_ZINC                                                             :{WEIGHT} 吨锌
+STR_CARGO_UNIT_YARN                                                             :{SIGNED_WORD} 捆纱线
+STR_CARGO_UNIT_ZINC                                                             :{WEIGHT} 锌
 
+# it seems that using 2 chars for these is a convention not a limit, I tested 4 chars and OpenTTD renders it fine - May 2020
 STR_CID_ACID                                                                    :{TINYFONT}酸
 STR_CID_ALCOHOL                                                                 :{TINYFONT}酒
 STR_CID_BAUXITE                                                                 :{TINYFONT}铝
+STR_CID_ALLOY_STEEL                                                             :{TINYFONT}合
+STR_CID_ALUMINIA                                                                :{TINYFONT}AA
+STR_CID_ALUMINIUM                                                               :{TINYFONT}AM
+STR_CID_AMMONIA                                                                 :{TINYFONT}AO
+STR_CID_AMMONIUM_NITRATE                                                        :{TINYFONT}AN
 STR_CID_BEANS                                                                   :{TINYFONT}豆
 STR_CID_BUILDING_MATERIALS                                                      :{TINYFONT}建
 STR_CID_CASSAVA                                                                 :{TINYFONT}薯
@@ -191,6 +309,12 @@ STR_CID_ZINC                                                                    
 
 
 STR_ERR_CLIMATE_TOYLAND                                                         :{ORANGE}FIRS不兼容于Toyland climate
+STR_ERR_OPENTTD_VERSION                                                         :{ORANGE}E00: FIRS 需要 OpenTTD 1.7.0 (或者这些使用的trunk builds, r27769)
+STR_ERR_INCOMPATIBLE_SET                                                        :{ORANGE}E01: {YELLOW}兼容集: {ORANGE}{STRING}
+STR_ERR_INCOMPATIBLE_PARAM_CANSET                                               :{ORANGE}E02: {YELLOW}兼容参数: {ORANGE}CanSet parameter 2 must be 0 to work with FIRS.
+STR_ERR_INCOMPATIBLE_PARAM_CITYSET                                              :{ORANGE}E02: {YELLOW}兼容参数: {ORANGE}NA City Set parameter 2 must be 0 to work with FIRS.
+STR_ERR_INCOMPATIBLE_SET_TTRS_VERSION                                           :{ORANGE}E04: {YELLOW}兼容版本: {ORANGE}Total Town Replacement Set must be version release 3.11 or newer.
+
 
 STR_ERR_LOCATION_NOT_ABOVE_SNOWLINE                                             :须置于雪线以下
 STR_ERR_LOCATION_NOT_BELOW_SNOWLINE                                             :必须置于雪线以上
@@ -199,6 +323,46 @@ STR_ERR_LOCATION_NOT_IN_DESERT                                                  
 STR_ERR_LOCATION_NOT_ON_STEEP_SLOPE                                             :不能置于陡坡
 STR_ERR_LOCATION_LIMIT_1_PER_TOWN                                               :每城镇只允许一个该类工业
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 STR_IND_ALUMINIUM_PLANT                                                         :电解铝厂
 STR_IND_AMMONIA_PLANT                                                           :制氨厂
 STR_IND_ARABLE_FARM                                                             :种植园
@@ -206,21 +370,39 @@ STR_IND_ASSEMBLY_PLANT                                                          
 STR_IND_BASIC_OXYGEN_FURNACE                                                    :吹氧转炉
 STR_IND_BIOREFINERY                                                             :生物炼制厂
 STR_IND_BLAST_FURNACE                                                           :高炉
+STR_IND_BODY_PLANT                                                              :车身厂
 STR_IND_BREWERY                                                                 :酿酒厂
 STR_IND_CIDER_MILL                                                              :苹果酒厂
 STR_IND_BRICK_WORKS                                                             :砖厂
 STR_IND_BUILDERS_YARD                                                           :建筑工地
 STR_IND_BULK_TERMINAL                                                           :散装码头
+STR_IND_CARBON_BLACK_PLANT                                                      :炭黑工厂
 STR_IND_CEMENT_PLANT                                                            :水泥厂
 STR_IND_CHEMICAL_PLANT                                                          :化工厂
+STR_IND_CHLOR_ALKALI_PLANT                                                      :氯碱厂
+STR_IND_CHROMITE_MINE                                                           :铬铁矿
+STR_IND_CIVIL_EXPLOSIVES_FACILITY                                               :民用爆破厂
 STR_IND_CLAY_PIT                                                                :粘土矿坑
 STR_IND_COFFEE_ESTATE                                                           :咖啡屋
 STR_IND_COKE_OVEN                                                               :炼焦炉
+STR_IND_COMPONENT_FACTORY                                                       :零部件工厂
+STR_IND_COPPER_CONCENTRATOR                                                     :铜精炼厂
 STR_IND_COPPER_SMELTER                                                         :炼铜厂
+STR_IND_CRYO_PLANT                                                              :低温工厂
 STR_IND_DAIRY                                                                   :乳品厂
 STR_IND_DAIRY_FARM                                                              :乳牛场
 STR_IND_DREDGING_SITE                                                           :疏浚区
 STR_IND_ELECTRIC_ARC_FURNACE                                                    :电弧炉
+STR_IND_ENGINE_PLANT                                                            :发动机厂
+STR_IND_ETHYLENE_CRACKER                                                        :石脑油裂解装置
+STR_IND_FARM                                                                    :农场
+STR_IND_FERROCHROME_SMELTER                                                     :铬铁冶炼厂
+STR_IND_FERTILISER_PLANT                                                        :化肥厂
+STR_IND_FACTORY_1                                                               :Factory 1
+STR_IND_FACTORY_2                                                               :Factory 2
+STR_IND_FACTORY_3                                                               :Factory 3
+STR_IND_FISCHER_TROPSCH_PLANT                                                   :费托装置
+STR_IND_FISH_FARM                                                               :养鱼场
 STR_IND_FISHING_GROUND                                                          :渔场
 STR_IND_FISHING_HARBOUR                                                         :渔港
 STR_IND_FISHING_VILLAGE                                                         :渔村
@@ -235,11 +417,13 @@ STR_IND_HOTEL                                                                   
 STR_IND_HERDING_COOP                                                            :狩猎营
 STR_IND_IRON_WORKS                                                              :炼铁厂
 STR_IND_SCRAP_YARD                                                                :废料场
+STR_IND_LATEX_PROCESSOR                                                         :乳胶处理器
 STR_IND_LIME_KILN                                                               :石灰窑
 STR_IND_LIMESTONE_MINE                                                          :石灰岩
 STR_IND_LIQUIDS_TERMINAL                                                        :油品码头
 STR_IND_TIMBER_YARD                                                             :木材加工厂
-STR_IND_MACHINE_SHOP                                                            :机械厂
+STR_IND_MACHINE_SHOP                                                            :机械加工车间
+STR_IND_MACHINE_WORKS                                                           :机械厂
 STR_IND_MANGANESE_MINE                                                          :锰矿
 STR_IND_METAL_WORKSHOP                                                          :金属车间
 STR_IND_MIXEDFARM                                                               :综合农场
@@ -248,7 +432,11 @@ STR_IND_ORCHARD_PIGGERY                                                         
 STR_IND_PEATLANDS                                                               :泥煤地
 STR_IND_PETROLPUMP                                                              :加油站
 STR_IND_PHOSPHATE_MINE                                                          :磷矿山
+STR_IND_PHOSPHORIC_ACID_PLANT                                                   :磷酸厂
 STR_IND_PLASTICS_PLANT                                                          :塑料厂
+STR_IND_PLAZA                                                                   :广场
+STR_IND_POLYETHYLENE_PLANT                                                      :聚乙烯工厂
+STR_IND_POLYPROPYLENE_PLANT                                                     :聚丙烯工厂
 STR_IND_PORT                                                                    :港口
 STR_IND_POTASH_MINE                                                             :钾矿
 STR_IND_PYRITE_MINE                                                             :黄铁矿山
@@ -259,34 +447,32 @@ STR_IND_RANCH                                                                   
 STR_IND_RECYCLING_DEPOT                                                         :回收站
 STR_IND_RECYCLING_PLANT                                                         :回收厂
 STR_IND_REINDEER_FARM                                                           :驯鹿农场
+STR_IND_SALT_MINE                                                               :盐矿
 STR_IND_SHEEPFARM                                                               :牧羊场
 STR_IND_SLAG_GRINDING_PLANT                                                     :磨渣场
 STR_IND_SMITHY_FORGE                                                            :铁匠铺
 STR_IND_SODA_ASH_MINE                                                           :碱矿
+STR_IND_SOLVAY_PLANT                                                            :索尔维工厂
+# we use 'integrated_steel_mill' in code to avoid confusion with Steeltown mills, but it's easier to just use 'Steel Mill' for name that players see
+STR_IND_INTEGRATED_STEEL_MILL                                                   :钢厂
+STR_IND_SHEET_AND_PIPE_MILL                                                     :板材管材轧机厂
 STR_IND_STOCKYARD                                                               :肉联厂
 STR_IND_SUGAR_REFINERY                                                          :制糖厂
+STR_IND_SULPHURIC_ACID_PLANT                                                    :硫酸厂
 STR_IND_SUPPLY_YARD                                                             :供货场
 STR_IND_TEXTILE_MILL                                                            :纺织厂
+STR_IND_TINPLATE_WORKS                                                          :马口铁厂
 STR_IND_TRADING_POST                                                            :贸易站
 STR_IND_TYRE_PLANT                                                              :轮胎工厂
 STR_IND_VINEYARD                                                                :葡萄园
+STR_IND_VEHICLE_DISTRIBUTOR                                                     :车辆经销商
 STR_IND_WHARF                                                                   :码头
-
-
-STR_CARGO_SUBTYPE_DISPLAY_CARGO_SUPPLIED_FLAG                             : {BLACK}(已供应)
-STR_EXTRA_TEXT_SECONDARY_NON_COMBINATORY                                        :如果{WHITE}任意 {BLACK}所需的货物供应，则{BLACK}产率达到最大
-STR_EXTRA_TEXT_SECONDARY_COMBINATORY                                            :{BLACK}为达到最大产率, 需至少三个月内供应 {WHITE}所有 {BLACK}所需货物。
-STR_PRIMARY_PRODUCTION_1X                                                       :{BLACK}当前产率: {YELLOW}标准{}{}{BLACK}为达到{WHITE}增强{BLACK}需三个月内交付 {SIGNED_WORD}箱物资。{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 箱
-STR_PRIMARY_PRODUCTION_2X                                                       :{BLACK}当前产率: {YELLOW}增强{}{}{BLACK}为保持此水准，需三个月内交付 {SIGNED_WORD}{}为保持{WHITE}工合 {BLACK}需交付 {SIGNED_WORD}箱
-STR_PRIMARY_PRODUCTION_4X                                                       :{BLACK}当前产率: {YELLOW}工合{}{} {BLACK}为保持此产率, 需三个月内交付 {SKIP}{SIGNED_WORD} 箱物资
-STR_PORT_PRODUCTION_1X                                                          :{BLACK}当前产率: {YELLOW}标准{}{}{BLACK}为达到{WHITE}增强{BLACK}需三个月内交付 {SIGNED_WORD} 单位货物{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 单位
-STR_PORT_PRODUCTION_2X                                                          :{BLACK}当前产率: {YELLOW}增强{}{}{BLACK}为保持次水准，需三个月内交付{SIGNED_WORD} 单位货物。{}为达到{WHITE}工合 {BLACK}需交付 {SIGNED_WORD} 单位
-STR_PORT_PRODUCTION_4X                                                          :{BLACK}当前产率: {YELLOW}工合{}{}{BLACK}为保持此产率，需三个月内交付{SKIP}{SIGNED_WORD} 单位货物
-STR_GENERIC_NEWLINE                                                             :{}
+STR_IND_WIRE_AND_SECTION_MILL                                                   :线材和型材轧机厂
 
 STR_FUND_ARABLE_FARM                                                            :{}{BLACK}位置: {YELLOW}不得修建于雪地或者沙漠。
 STR_FUND_COFFEE_ESTATE                                                          :{}{BLACK}位置: {YELLOW}不得修建于雪地或者沙漠。
 STR_FUND_DAIRY_FARM                                                             :{}{BLACK}位置: {YELLOW}不能修建于雪地或者沙漠。
+STR_FUND_FARM                                                                   :{}{BLACK}地点: {YELLOW}不能修建于雪地或者沙漠。
 STR_FUND_FOREST                                                                 :{}{BLACK}位置: {YELLOW}不得在沙漠修建。
 STR_FUND_FRUIT_PLANTATION                                                       :{}{BLACK}位置: {YELLOW}不得在雪地修建。
 STR_FUND_HERDING_COOP                                                           :{}{BLACK}位置: {YELLOW}只能修建于雪地
@@ -308,17 +494,22 @@ STR_STATION_BARREL_AND_KEG                                                      
 STR_STATION_BASE                                                                :基地
 STR_STATION_BONEYARD                                                            :废料场
 STR_STATION_BANK_TOP                                                            :大银行
-STR_STATION_CASTINGS                                                            :铸铁炉
+STR_STATION_BRINE_WORKS                                                         :盐水厂
+STR_STATION_CASTINGS                                                            :铸件
 STR_STATION_COLLIERY                                                            :煤矿
+STR_STATION_COMPONENTS                                                          :组件
 STR_STATION_COPPER_LODE                                                         :铜矿
 STR_STATION_CREOSOTING                                                          :木馏油
+STR_STATION_CRYO_PLANT                                                          :低温工厂
 STR_STATION_DAIRY_LANE                                                          :牛奶巷
+STR_STATION_DYNAMO                                                              :发电机
 STR_STATION_ESTATE                                                              :地产
 STR_STATION_EXCHANGE                                                            :交易港
 STR_STATION_FARM_1                                                              :庄园
 STR_STATION_FARM_2                                                              :草甸
 STR_STATION_FARM_3                                                              :大农场
 STR_STATION_FISHMARKET                                                          :鱼市场
+STR_STATION_FISH_PENS                                                           :鱼栏
 STR_STATION_FOOD_CORPORATION                                                    :食品厂
 STR_STATION_FOREST                                                              :原木码头
 STR_STATION_FORGE                                                               :锻造厂
@@ -329,6 +520,7 @@ STR_STATION_HERDING_COOP                                                        
 STR_STATION_INDUSTRY_ESTATE_1                                                   :工业园区
 STR_STATION_INDUSTRY_HARBOUR_1                                                  :货港
 STR_STATION_INDUSTRY_HARBOUR_2                                                  :湾浦
+STR_STATION_INDUSTRY_HARBOUR_3                                                  :栈桥
 STR_STATION_INDUSTRY_HARBOUR_3                                                  :栈桥
 STR_STATION_IRONSTONE                                                           :铁石
 STR_STATION_JOINERS_SHOP                                                        :木匠店
@@ -343,19 +535,26 @@ STR_STATION_MINE                                                                
 STR_STATION_MOULDINGS                                                           :模具厂
 STR_STATION_OIL_RIG                                                             :钻井台
 STR_STATION_ORCHARDS                                                            :圃
+STR_STATION_PHENOLS                                                             :酚
 STR_STATION_PIT                                                                 :矿坑
+STR_STATION_PIPE_MILL                                                           :管材轧机
 STR_STATION_PLANTATION                                                          :种植园
+STR_STATION_PLAZA                                                               :广场
 STR_STATION_POWERHUNGRY                                                         :电站
+STR_STATION_POWERTRAIN                                                          :动力总成
 STR_STATION_PUMPS                                                               :泵站
 STR_STATION_PYRITES                                                             :黄铁矿床
 STR_STATION_REFINERY                                                            :炼油厂
+STR_STATION_ROD_MILL                                                            :棒材轧机
 STR_STATION_RUBBER_COMPANY                                                      :橡胶公司
 STR_STATION_SALTPETER_WORKS                                                     :硝厂
+STR_STATION_SEAFOOD                                                             :海鲜
 STR_STATION_SHARP_STREET                                                        :角街
 STR_STATION_SHEEP_FOLD                                                          :羊圈
 STR_STATION_SHOALS                                                              :滩
 STR_STATION_SILO                                                                :筒仓
 STR_STATION_SMELTER                                                             :熔炉
+STR_STATION_SOOT_FURNACE                                                        :烟灰炉
 STR_STATION_STACKS                                                              :堆
 STR_STATION_STAMP_AND_PLATE                                                     :雕印坊
 STR_STATION_SUGAR_COMPANY                                                       :糖厂
@@ -369,3 +568,4 @@ STR_STATION_WATER                                                               
 STR_STATION_WEAVE_AND_DYE                                                       :纺染所
 STR_STATION_WELLS                                                               :油井
 STR_STATION_WINERY                                                              :酒厂
+STR_STATION_VEHICLE_DISTRIBUTOR                                                 :卡车地段
